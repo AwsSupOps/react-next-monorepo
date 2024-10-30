@@ -1,5 +1,5 @@
 {
-  "name": "s-backend",
+  "name": "ss-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "aws-amplify": "^6.6.7"
+    "aws-amplify": "^6.7.0"
   }
 }
