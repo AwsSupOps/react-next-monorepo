@@ -3,5 +3,14 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  
+  "compilerOptions": {
+      ....
+      "paths": {
+          "@/amplify_outputs.json": [
+            "../../packages/s-backend/amplify_outputs.json"
+         ]
+    }
+}
 }
